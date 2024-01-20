@@ -1,5 +1,4 @@
 import { Controller } from '@nestjs/common';
-import { Payload } from '@nestjs/microservices';
 import { UsersService } from './users.service';
 import {
   CreateUserDto,
@@ -8,7 +7,6 @@ import {
   UpdateUserDto,
   UserServiceController,
   UserServiceControllerMethods,
-  Users,
 } from '@app/common';
 import { Observable } from 'rxjs';
 

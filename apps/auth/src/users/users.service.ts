@@ -40,6 +40,7 @@ export class UsersService implements OnModuleInit {
 
   findOne(id: string): User {
     const user = this.users.find((user) => user.id === id);
+    console.log(user);
     return user;
   }
 
